@@ -1,0 +1,20 @@
+.full-team{
+    display: flex;
+}
+
+img {
+    margin-right: 15px;
+    width: 80%;
+}
+.team-info{
+    width: 40%;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 5px 7px;
+    font-size: 16px;
+    border: 2px solid green;
+    cursor: pointer;
+    border-radius: 3px;
+}

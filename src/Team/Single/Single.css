@@ -1,0 +1,7 @@
+.player-info{
+    display: flex;
+    text-align: left;
+    border: 1px solid lightblue;
+    margin: 10px 50px;
+    width: 80%;
+}
