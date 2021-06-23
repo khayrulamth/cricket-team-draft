@@ -9,12 +9,6 @@ import data from '../../../src/fakeData/fakeData.json';
 const Player = () => {
     const [players, setPlayers] = useState([]);
     const [count, setCount] = useState([]);
-
-    // useEffect(() => {
-    //     fetch('https://mocki.io/v1/9599fa8d-c11e-4687-bbb6-c1f740776ade')
-    //         .then(res => res.json())
-    //         .then(data => { setPlayers(data) })
-    // }, [])
     useEffect(()=>{
         setPlayers(data);
     },[])
